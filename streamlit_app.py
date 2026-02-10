@@ -4,7 +4,7 @@ import pandas as pd
 import datetime
 
 # --- CONFIGURATION ---
-st.set_page_config(page_title="IT Data Analytics Quiz", page_icon="📊")
+st.set_page_config(page_title="Data Detective: Quiz", page_icon="📊")
 
 # Your Spreadsheet URL
 spreadsheet_url = "https://docs.google.com/spreadsheets/d/11tpVhGAqNGGH0XraZg1URZJvWEh8SPmiWfoJOmTw__8/edit?usp=sharing"
@@ -95,3 +95,4 @@ else:
         st.info("✅ Result saved to Google Sheets.")
     except Exception as e:
         st.error(f"Error saving data: {e}")
+
